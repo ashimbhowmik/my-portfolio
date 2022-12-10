@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import img1 from "../../assests/Image/img.png";
 import logo from "../../assests/Logo/linkedin (1).png";
 import Project from "./Project/Project";
@@ -46,14 +47,19 @@ const Home = () => {
                 <img src={logo} className="w-6 h-6" alt="" />
               </button>
             </div>
-            <div className="mt-10">
+            <Link
+              to="/resume
+            "
+              target="_blank"
+              className="mt-10"
+            >
               <button
                 type="button"
                 className="px-6 py-3 font-semibold rounded btn btn-accent "
               >
                 Resume
               </button>
-            </div>
+            </Link>
           </div>
           <div className="w-[40%]">
             <img src={img1} className="w-full mx-auto" alt="" />

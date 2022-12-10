@@ -7,7 +7,7 @@ const Navber = () => {
   const [menuOpen, menuSetOpen] = useState(false);
   return (
     <div>
-      <div className="navbar bg-base-100 ">
+      <div className="navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -59,11 +59,18 @@ const Navber = () => {
               }
             >
               <li>
-                <Link to="/home">Home</Link>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/project">Project</Link>
+                <a href="/project">Project</a>
               </li>
+              <li>
+                <a href="#skills">Skills</a>
+              </li>
+              <li>
+                <Link to="/feedback">Feedback</Link>
+              </li>
+
               <li>
                 <Link to="/about">About</Link>
               </li>
@@ -86,10 +93,16 @@ const Navber = () => {
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal p-0">
             <li>
-              <Link to="/home">Home</Link>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/project">Project</Link>
+              <a href="#project">Project</a>
+            </li>
+            <li>
+              <a href="#skills">Skills</a>
+            </li>
+            <li>
+              <Link to="/feedback">Feedback</Link>
             </li>
             <li>
               <Link to="/about">About</Link>

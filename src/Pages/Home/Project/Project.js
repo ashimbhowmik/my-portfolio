@@ -6,7 +6,7 @@ import img4 from "../../../assests/Image/Airnoix.png";
 
 const Project = () => {
   return (
-    <div className="my-16">
+    <div className="my-16" id="project">
       <h1 className="text-3xl font-bold mb-12">My Projects</h1>
       <section className="grid grid-cols-2 gap-7">
         <div className="grid grid-cols-2 gap-1 shadow-lg rounded-lg py-5 px-9">
