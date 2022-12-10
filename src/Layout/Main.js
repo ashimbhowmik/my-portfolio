@@ -5,7 +5,7 @@ import Navber from "../Pages/Shared/Navber/Navber";
 
 const Main = () => {
   return (
-    <div>
+    <div className="lg:w-[90%] mx-auto">
       <Navber></Navber>
       <Outlet></Outlet>
       <Footer></Footer>
