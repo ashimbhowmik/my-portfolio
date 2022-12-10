@@ -6,11 +6,11 @@ const Home = () => {
   return (
     <>
       <section>
-        <section className="flex mt-10">
+        <section className="flex mt-16">
           <div className="w-[60%] flex flex-col justify-center">
             <h1 className="text-4xl">Hi, I'm Ashim Bhowmik Amit</h1>
             <h2 className="text-3xl mt-3">Front-end Developer</h2>
-            <p className="mt-3">
+            <p className="mt-5 w-[80%] text-sm ">
               I am a hardworking and ambitious individual with a great passion.
               I am currently in my Third year of studying Computer Science and
               Engineering at Daffodil International University. I have been
