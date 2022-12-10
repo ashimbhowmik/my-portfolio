@@ -7,7 +7,9 @@ const Main = () => {
   return (
     <div className="lg:w-[90%] mx-auto lg:mt-3">
       <Navber></Navber>
-      <Outlet></Outlet>
+      <div className="lg:w-[93%] mx-auto">
+        <Outlet></Outlet>
+      </div>
       <Footer></Footer>
     </div>
   );
