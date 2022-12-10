@@ -15,7 +15,7 @@ const Project = () => {
               <h1 className="text-3xl font-bold">Photography Services</h1>
             </div>
             <div className="w-[50%]">
-              <button className="flex">
+              <button className="flex px-3 py-2 bg-indigo-500 text-white rounded-lg font-fold text-sm items-center justify-center">
                 View Project
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +23,7 @@ const Project = () => {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-6 h-6"
+                  className="w-6 h-6 ml-2"
                 >
                   <path
                     strokeLinecap="round"
@@ -44,7 +44,7 @@ const Project = () => {
               <h1 className="text-3xl font-bold">Learning Platform</h1>
             </div>
             <div className="w-[50%]">
-              <button className="flex">
+              <button className="flex px-3 py-2 bg-indigo-500 text-white rounded-lg font-fold text-sm items-center justify-center">
                 View Project
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +52,7 @@ const Project = () => {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-6 h-6"
+                  className="w-6 h-6 ml-2"
                 >
                   <path
                     strokeLinecap="round"
@@ -75,7 +75,7 @@ const Project = () => {
               <h1 className="text-3xl font-bold">Quiz Contest</h1>
             </div>
             <div className="w-[50%]">
-              <button className="flex">
+              <button className="flex px-3 py-2 bg-indigo-500 text-white rounded-lg font-fold text-sm items-center justify-center">
                 View Project
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -104,7 +104,7 @@ const Project = () => {
               <h1 className="text-3xl font-bold">Aironex Computers</h1>
             </div>
             <div className="w-[50%]">
-              <button className="flex">
+              <button className="flex px-3 py-2 bg-indigo-500 text-white rounded-lg font-fold text-sm items-center justify-center">
                 View Project
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <section>
-        <section className="flex mt-16 mb-16">
+        <section className="flex mt-28 mb-16">
           <div className="w-[60%] flex flex-col justify-center">
             <h1 className="text-5xl">Hi, I'm Ashim Bhowmik Amit</h1>
             <h2 className="text-5xl mt-3">Front-end Developer</h2>

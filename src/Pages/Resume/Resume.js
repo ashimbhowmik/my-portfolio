@@ -1,14 +1,20 @@
-import React from "react";
+import React, { useRef } from "react";
 import call from "../../assests/Logo/call.png";
 import linkedin from "../../assests/Logo/linkedin (1).png";
 import git from "../../assests/Logo/github.png";
 import dot from "../../assests/Logo/record-button.png";
+import { useReactToPrint } from "react-to-print";
 
 const Resume = () => {
+  const componentRef = useRef();
+  const handlePrint = useReactToPrint({
+    content: () => componentRef.current,
+  });
+
   return (
     <div>
-      <section className="mt-40 mb-20 w-[70%] mx-auto shadow-md py-12">
-        <div className="ml-32">
+      <section className="mt-40 mb-10 w-[70%] mx-auto shadow-md py-12">
+        <div ref={componentRef} className="ml-32">
           <h1 className="text-4xl font-bold">ASHIM BHOWMIK AMIT</h1>
           <p className=" font-bold mt-1 mb-9">FRONT-END DEVELOPER</p>
           <section className="flex gap-10">
@@ -240,6 +246,14 @@ const Resume = () => {
             </div>
           </section>
         </div>
+      </section>
+      <section className="w-[70%] flex justify-center mx-auto mb-10">
+        <button
+          onClick={handlePrint}
+          className="btn btn-active btn-accent text-white"
+        >
+          Download
+        </button>
       </section>
     </div>
   );
