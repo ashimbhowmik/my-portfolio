@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import img1 from "../../assests/Image/img.png";
 import logo from "../../assests/Logo/linkedin (1).png";
+import ContactMe from "./ContactMe/ContactMe";
 import Project from "./Project/Project";
 import Skills from "./Skills/Skills";
 
@@ -69,6 +70,8 @@ const Home = () => {
         <Project></Project>
         <hr />
         <Skills></Skills>
+        <hr />
+        <ContactMe></ContactMe>
       </section>
     </>
   );
