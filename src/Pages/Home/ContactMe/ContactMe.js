@@ -1,5 +1,8 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import toast, { Toaster } from "react-hot-toast";
+
+const notify = () => toast.success("Email Send Sucsefully");
 
 const ContactMe = () => {
   const form = useRef();
@@ -138,10 +141,12 @@ const ContactMe = () => {
                     ></textarea>
                   </div>
                   <input
+                    onClick={notify}
                     className="px-6 py-3 font-semibold rounded btn btn-accent text-black mt-2"
                     type="submit"
                     value="Send"
                   />
+                  <Toaster />
                 </div>
               </div>
             </form>
